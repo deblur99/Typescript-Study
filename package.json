@@ -1,0 +1,21 @@
+{
+  "name": "typescript-study",
+  "description": "무료강의를 통한 TS 학습",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.20",
+    "nodemon": "^3.1.0"
+  }
+}
